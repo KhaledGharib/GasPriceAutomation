@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Gas Station Price Display Automation System
 
-## Getting Started
+![My Skills](https://skillicons.dev/icons?i=nextjs,tailwind,express,postgres,prisma,aws,arduino)
 
-First, run the development server:
+### This repository serves as a template for the concepts discussed in the [article](https://blog.kgharib.com/preview/66104a375aa493d5e80d7033). To run the application successfully, please refer to the Next.js section in the article linked here. See you there
+
+## Overview
+This project aims to automate gas station price displays in Saudi Arabia, which are currently manually updated. The system allows remote control of displays, entering custom prices, and syncing prices with Aramco's retail fuel prices.
+
+
+
+
+## Step 1: Clone the repository
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/KG-Development/Gas-Station-Price-Display-Automation-System.git
+```
+## Step 2: Change into the project directory
+
+```bash
+cd Gas-Station-Price-Display-Automation-System
+```
+## Step 3: Install dependencies
+
+```bash
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Step 4: Set up environment variables
+```bash
+cp .env.example .env
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Step 5: Run the development server
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Step 6: Access the application
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Open your web browser and go to http://localhost:3000 to access the Gas Station Price Display Automation System.
