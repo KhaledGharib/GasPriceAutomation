@@ -23,7 +23,7 @@ const handleSwitch = (
   } else {
     setChecked(true);
     if (fuelData) {
-      fuelData.price.map((e: FuelPrice) => {
+      fuelData.prices.price.map((e: FuelPrice) => {
         setValues((prevFormData: FuelPrice) => ({
           ...prevFormData,
           [e.fuelName.replace(" ", "")]: e.price,
