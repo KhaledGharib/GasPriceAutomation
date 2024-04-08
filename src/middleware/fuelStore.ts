@@ -7,6 +7,7 @@ export interface FuelPrice {
 }
 
 export interface FuelPricesResponse {
+  prices: FuelPricesResponse | null;
   id: number;
   month: string;
   price: FuelPrice[];
