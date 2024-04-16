@@ -2,7 +2,9 @@
 
 ![My Skills](https://skillicons.dev/icons?i=nextjs,tailwind,express,postgres,prisma,aws,arduino)
 
-### This repository serves as a template for the concepts discussed in the [article](https://blog.kgharib.com/gas-station-price-display-automation-system). To run the application successfully, please refer to the Next.js section in the article linked here. See you there
+### This repository serves as a template for the concepts discussed in the [article](https://blog.kgharib.com/gas-station-price-display-automation-system). To run the application successfully, please refer to the Next.js section in the article linked here. See you there!
+
+[Main project](https://github.com/KhaledGharib/GasTechSign)
 
 ## Overview
 This project aims to automate gas station price displays in Saudi Arabia, which are currently manually updated. The system allows remote control of displays, entering custom prices, and syncing prices with Aramco's retail fuel prices.
